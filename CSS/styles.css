@@ -1,0 +1,87 @@
+body{
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;  
+  color: white;
+}
+
+h2{      
+  position: relative;
+  top: 50%;
+  width: fit-content;
+  margin:0 auto;  
+  padding: 2%;
+  letter-spacing: 10px;  
+}
+
+p{
+  margin:0;
+  padding: 4% 3%;
+  background-color: #505A5B;
+  letter-spacing: 2px;  
+  text-align: center;
+  color: white;
+}
+
+.section{
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 100vh;
+}
+
+#title{  
+  background-image: url("/Images/bread-1284438.jpg");  
+}
+#section1{
+  background-image: url("/Images/bread-5470532.jpg");
+}
+#section2{  
+  background-image: url("/Images/coffee-1030971.jpg"); 
+}
+
+.head{
+  display: block;
+  text-align: center;
+  font-size: larger;
+  margin-bottom: 1.2em;
+}
+
+ul{
+  position: fixed;
+  width: 100%;
+  margin: 0;  
+  background-color: #f7f7ff7e;
+ 
+}
+li{
+  margin-left: 6%;
+  text-align: center;
+  display: inline;
+  font-size: larger;
+}
+
+li a{  
+  color: black;
+  text-decoration: none;
+}
+
+select{
+  visibility: hidden;
+  position: fixed;
+  width:100vh;
+  height: 10vh;  
+  font-size: larger;
+  background-color:f7f7ff7e;
+  
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+@media (max-width:500px){
+  ul{
+    display: none;
+  }
+  select{
+    visibility: visible;
+  }
+}
